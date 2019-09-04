@@ -21,7 +21,6 @@ PDL파일 끝부분 4자리를 읽으면 파일 파티션 위치가 나옴 (int)
 
 ## Binwalk
 PDL파일을 Binwalk 사용해서 분석한 결과
->File List
 <pre><code>IM-A800S_S0212317.pdl
 IM-A840S_S0215224.pdl
 IM-A870K_KFVN.S01.pdl
