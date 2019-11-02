@@ -3,10 +3,9 @@ researching about PDL file format
 
 ## Partition
 PDL파일 끝부분 4자리를 읽으면 파일 파티션 위치가 나옴 (int)
-※IM-100 PDL은 다름
-
-파티션 시작부터 파일 끝부분까지 모두 읽은 내용
-간격 96Byte
+※IM-100 PDL은 다름  
+각 파티션의 정보 사이즈는 96Byte  
+No. 번호는 파티션 번호를 의미 (No.10 PHONEINFO 은 mmcblk0p10)
 
 ## Checksum
 체크섬으로 추정되는 4Bytes 문자가 IM-A850 기기부터 들어감
