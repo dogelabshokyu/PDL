@@ -8,8 +8,7 @@ PDL파일 끝부분 4자리를 읽으면 파일 파티션 위치가 나옴 (int)
 No. 번호는 파티션 번호를 의미 (No.10 PHONEINFO 은 mmcblk0p10)
 
 ## Checksum
-체크섬으로 추정되는 4Bytes 문자가 IM-A850 기기부터 들어감
-
+Checksum 32bit
 
 ### IM-A770K_S0833317.pdl
 ![IM-A770K_S0833317.pdl](/image/IM-A770K_S0833317.jpg)
@@ -24,7 +23,7 @@ No. 번호는 파티션 번호를 의미 (No.10 PHONEINFO 은 mmcblk0p10)
 ![IM-A910S_S0224129.pdl](/image/IM-A910S_S0224129.jpg)
 
 ## Binwalk
-PDL파일을 Binwalk 사용해서 분석한 결과
+PDL파일을 Binwalk 사용해서 분석한 파일들
 <pre><code>IM-A800S_S0212317.pdl
 IM-A840S_S0215224.pdl
 IM-A870K_KFVN.S01.pdl
