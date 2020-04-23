@@ -8,7 +8,7 @@ PDL파일 끝부분 4자리를 읽으면 파일 파티션 위치가 나옴 (int)
 No. 번호는 파티션 번호를 의미 (No.10 PHONEINFO 은 mmcblk0p10)
 
 ## Checksum
-Checksum 32bit
+Checksum 32bit (Use Winhex Compute Hash)
 
 ### IM-A770K_S0833317.pdl
 ![IM-A770K_S0833317.pdl](/image/IM-A770K_S0833317.jpg)
