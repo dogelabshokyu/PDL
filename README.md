@@ -2,7 +2,9 @@
 researching about PDL file format
 
 ## Partition
-PDL파일 끝부분 4자리를 읽으면 파일 파티션 위치가 나옴 (int)  
+PDL파일 끝부분 4자리를 읽으면 SectionInfo 시작점 위치가 나옴 (int)
+또한 해당 시작점의 숫자는 PDL Version
+그리고 바로 다음 4자리는 PDL Checksum
 ※IM-100 PDL은 다름  
 각 파티션의 정보 사이즈는 96Byte  
 No. 번호는 파티션 번호를 의미 (No.10 PHONEINFO 은 mmcblk0p10)
